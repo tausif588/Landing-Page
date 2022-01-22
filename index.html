@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>My First Website</title>
+	<style>
+		.navbar.scroll {
+			position: fixed;
+			top: 0px;
+		}
+
+		.navbar .navbar-brand {
+			font-style: italic;
+			font-weight: 500;
+			font-size: 30px;
+		}
+
+		.navbar .navbar-nav .nav-item .nav-link {
+			font-size: 20px;
+			color: white;
+			padding-right: 30px;
+		}
+
+		.logo {
+			width: 64%;
+			height: 75%;
+		}
+
+		p {
+			font-size: 18px;
+		}
+
+		.Enrollment {
+			float: left;
+
+			border: none;
+		}
+
+		.cou {
+			margin-top: 10px;
+			height: 45px;
+		}
+
+		nput,
+		input::-webkit-input-placeholder {
+			font-size: 20px;
+			color: white;
+			opacity: 0.9;
+		}
+
+		.nav-logo {
+			width: 80px;
+
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a href="" class="navbar-brand text-warning">
+				<img class="nav-logo image-responsive" src="img/logo/nav-logo.png" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a href="#home" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#service" class="nav-link">Service</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Contact</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id="home" style="padding-top: 100px;">
+		<section class="bg-dark text-light text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1 class="pt-5">Become a Web <span class="text-warning"> Developer</span></h1>
+						<p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+							Dignissimos nisi molestias incidunt vel
+							nulla asperiores atque beatae molestiae obcaecati cupiditate nostrum cum reprehenderit
+							facere
+							quam ullam officia, ex minima tempora labore? Libero deserunt tenetur maxime. Accusantium
+							porro
+							reprehenderit amet dignissimos nulla, quas corporis quae impedit perspiciatis aut, dolorem,
+							recusandae laudantium.</p>
+						<button class="Enrollment text-light btn btn-primary p-2 text-start">Course Enrollment</button>
+					</div>
+					<div class="col-md-6"><img class="logo pt-5" src="img/logo/logo.png" alt="">
+						<h3>Create a <span class="text-warning">Website </span></h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-primary text-light p-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="text-center text-white">Sign Up For <span class="text-warning">Notification</span>
+						</h3>
+					</div>
+					<div class="offset-md-1 col-md-5">
+						<form class="d-flex">
+							<input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-warning pr-6 border-0 btn-outline-dark text-light"
+								type="submit">Search</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+	<section id="about">
+		<section class=" bg-dark p-5 ">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-12">
+						<h1 class="text-white text-center">About <span class="text-warning">Us</span></h1>
+						<p class=" text-white text-justify">Lorem ipsum dolor sit amet consectetur
+							adipisicing
+							elit. Officiis rerum eligendi itaque cumque laudantium labore quasi consectetur, amet quas
+							voluptates repellat inventore, ea reprehenderit modi velit soluta nulla consequatur
+							temporibus
+							veritatis ab, et at optio. Nobis ea officiis dolor recusandae voluptates magnam est harum
+							repudiandae! Debitis quae porro quod, pariatur perspiciatis, est et vero vel, earum suscipit
+							molestiae voluptate alias culpa cum animi tempore dolore aspernatur sint impedit sit non?
+							Sunt
+							vero iusto nemo esse nulla animi, quo, error quae voluptate porro exercitationem. Illum
+							debitis
+							eum qui consequuntur eaque soluta, vero minus. Laboriosam incidunt voluptates, optio
+							perspiciatis eveniet porro obcaecati.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="mb-5 m-2 ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 text-center mt-2">
+						<div class="bg-dark text-center">
+							<img class="cou" src="img/logo/html.png" alt="">
+							<h5 class="text-white mt-2">HTML</h5>
+							<p class="text-center text-white m-2 text-justify">Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit. Iste doloremque hic placeat soluta,
+								nisi dicta odit atque laborum voluptate. Alias?</p>
+							<button class="btn btn-primary text-white mb-3 border-0 p-2">Learn More</button>
+
+						</div>
+					</div>
+					<div class="col-md-3 text-center mt-2">
+						<div class="bg-primary text-center">
+							<img class="cou" src="img/logo/css.png" alt="">
+							<h5 class="text-white mt-2">HTML</h5>
+							<p class="text-center text-white m-2 text-justify">Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit. Iste doloremque hic placeat soluta,
+								nisi dicta odit atque laborum voluptate. Alias?</p>
+							<button class="btn btn-dark text-white mb-3 border-0 p-2">Learn More</button>
+
+						</div>
+					</div>
+					<div class="col-md-3 text-center mt-2">
+						<div class="bg-dark text-center">
+							<img class="cou" src="img/logo/boot.png" alt="">
+							<h5 class="text-white mt-2">HTML</h5>
+							<p class="text-center text-white m-2 text-justify">Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit. Iste doloremque hic placeat soluta,
+								nisi dicta odit atque laborum voluptate. Alias?</p>
+							<button class="btn btn-primary text-white mb-3 border-0 p-2">Learn More</button>
+
+						</div>
+					</div>
+					<div class="col-md-3 text-center mt-2">
+						<div class="bg-primary text-center">
+							<img class="cou" src="img/logo/js.png" alt="">
+							<h5 class="text-white mt-2">HTML</h5>
+							<p class="text-center text-white m-2 text-justify">Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit. Iste doloremque hic placeat soluta,
+								nisi dicta odit atque laborum voluptate. Alias?</p>
+							<button class="btn btn-dark text-white mb-3 border-0 p-2">Learn More</button>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</section>
+	<!-- ------------------------------------------------------ -->
+	<section class=" bg-primary p-5 " id="service">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-12">
+					<h1 class="text-white text-center">Our <span class="text-warning">Services </span></h1>
+					<p class=" text-white text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+						elit. Officiis rerum eligendi itaque cumque laudantium labore quasi consectetur, amet quas
+						voluptates repellat inventore, ea reprehenderit modi velit soluta nulla consequatur temporibus
+						veritatis ab, et at optio. Nobis ea officiis dolor recusandae voluptates magnam est harum
+						repudiandae! Debitis quae porro quod, pariatur perspiciatis, est et vero vel, earum suscipit
+						molestiae voluptate alias culpa cum animi tempore dolore aspernatur sint impedit sit non? Sunt
+						vero iusto nemo esse nulla animi, quo, error quae voluptate porro exercitationem. Illum debitis
+						eum qui consequuntur eaque soluta, vero minus. Laboriosam incidunt voluptates, optio
+						perspiciatis eveniet porro obcaecati.</p>
+
+				</div>
+			</div>
+			<div class="row p-2">
+				<div class="bg-dark text-light mt-4  p-5 offset-md-1  col-md-4">
+					<h3 class="text-center">Web Developer</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi
+						praesentium, dolor repellendus earum perspiciatis sit pariatur aliquam ut repellat voluptatum
+						doloremque quaerat cum deserunt suscipit minima ratione optio perferendis explicabo, omnis a
+						impedit quia dolorem. Fugiat distinctio amet quos deleniti aspernatur facilis perferendis sed
+						aliquid magni dolorem, voluptatum mollitia!</p>
+					<button class="btn btn-warning">Enroll Now</button>
+
+				</div>
+				<div class="bg-light text-dark p-5 mt-4   offset-md-2  col-md-4">
+					<h3 class="text-center">Software Developer</h3>
+					<p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto amet
+						similique eum excepturi natus sint magni, perspiciatis consequuntur dolore unde inventore quidem
+						laudantium assumenda dolorum pariatur fugiat impedit vero quisquam voluptatum ducimus. Minima
+						vero unde hic, alias doloremque aperiam iure sit culpa quidem possimus iusto voluptatum soluta
+						repellat, ducimus laudantium?</p>
+					<button class="btn btn-primary">Enroll Now</button>
+
+				</div>
+				<div class="bg-light text-dark mt-4  p-5  offset-md-1  col-md-4">
+					<h3 class="text-center">Android Developer</h3>
+					<p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate harum
+						odio assumenda debitis? Distinctio eaque laudantium nobis nihil optio. Iure officiis id
+						cupiditate amet ipsum maiores voluptate optio explicabo accusantium cumque tempore esse dicta
+						neque harum, nisi rem voluptatum enim sint corrupti officia vitae suscipit ipsa earum
+						reiciendis. Et, corrupti!</p>
+					<button class="btn btn-primary">Enroll Now</button>
+				</div>
+				<div class="bg-dark text-light mt-4 p-5  offset-md-2  col-md-4">
+					<h3 class="text-center">Graphic Designer</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque veritatis
+						dolore quae consequatur molestiae explicabo expedita officiis sunt, quia similique earum
+						provident eum nihil assumenda animi accusamus, maxime iusto repudiandae numquam, laborum eaque
+						ipsum! Aut commodi optio inventore totam repellat vitae at similique explicabo, quis
+						necessitatibus quam exercitationem itaque voluptates.</p>
+					<button class="btn btn-warning">Enroll Now</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class=" bg-dark  p-5" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<h3 class="text-light">About Us</h3>
+					<p class="text-light text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+						debitis
+						perferendis explicabo amet animi. Deserunt, officia similique! Minima, accusantium. Harum minima
+						incidunt numquam, ipsum magnam iste dignissimos quia officia itaque!</p>
+					<img loading="lazy" width="32" height="32" class="crumina-icon"
+						src="https://squareit.in/img/theme-content/social-icons/facebook.png" alt="facebook">
+					<img loading="lazy" width="32" height="32" class="m-2 crumina-icon"
+						src="https://squareit.in/img/theme-content/social-icons/instagram.png" alt="google">
+					<img loading="lazy" width="32" height="32" class="m-2 crumina-icon"
+						src="https://squareit.in/img/theme-content/social-icons/twitter.png" alt="twitter">
+					<img loading="lazy" width="32" height="32" class="m-2 crumina-icon"
+						src="https://squareit.in/img/theme-content/social-icons/linkedin.png" alt="rss">
+					<img loading="lazy" width="32" height="32" class="m-2 crumina-icon"
+						src="https://squareit.in/img/theme-content/social-icons/pinterest-icon.png" alt="pinterest">
+					<img loading="lazy" width="32" height="32" class="m-2 crumina-icon"
+						src="https://squareit.in/img/theme-content/social-icons/youtube.png" alt="youtube">
+				</div>
+
+				<div class="col-md-3">
+					<h3 class="text-light" style="margin-left:12px;">Services</h3>
+					<ul class="text-light">
+						<li type="square">Web Development</li>
+						<li type="square">Software Development</li>
+						<li type="square">Android Development</li>
+						<li type="square">Graphic Design</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<form action="">
+						<h3 class="text-light " style="margin-right: 20%;">Contact Us</h3>
+						<input type="text" placeholder="Name" class=" bg-secondary"
+							style="width:80%;padding: 5px;color: white;  border-radius: 15px;border: none;">
+						<input type="text" placeholder="Contact" class="mt-3 bg-secondary"
+							style="width:80%;padding: 5px;color: white;  border-radius: 15px;border: none;">
+						<input type="text" placeholder="Email" class="mt-3 bg-secondary"
+							style="width:80%;padding: 5px; color: white; border-radius: 15px;border: none;"><br>
+						<button class="mt-3 btn-primary"
+							style="text-align: center;margin-left: 28%;width: 100px;border-radius: 10px;border: none; padding: 6px;">Send
+							Now</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="Bootstrap/js/bootstrap.bundle.js"></script>
+	<script src="Bootstrap/js/jquery.js"></script>
+</body>
+
+</html>
